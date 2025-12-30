@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2da726060dc4b9191748e2910f1a070, type: 3}
+  m_Name: GE_EquipWeapon
+  m_EditorClassIdentifier: GAS::WYGAS.SO.BasicGameplayEffectDefinition
+  durationType: 1
+  period: 0
+  duration: 0
+  modifiers:
+  - attributeName: {fileID: 11400000, guid: 45f00c0012936f74ba6630f85a4918fb, type: 2}
+    modifierOperator: 0
+    magnitude:
+      type: 1
+      constantValue: 0
+      setByCallerKey: AttackFromEquip
+      attributeName: {fileID: 0}
+      attributeCoefficient: 0
+    IsAggregated: 1
+  - attributeName: {fileID: 11400000, guid: 4e5db112db91cfd4cbe2f1caaa227770, type: 2}
+    modifierOperator: 0
+    magnitude:
+      type: 1
+      constantValue: 0
+      setByCallerKey: AgilityFromEquip
+      attributeName: {fileID: 0}
+      attributeCoefficient: 0
+    IsAggregated: 1
+  - attributeName: {fileID: 11400000, guid: 65db1685141317b44a0f54c30db3c588, type: 2}
+    modifierOperator: 0
+    magnitude:
+      type: 1
+      constantValue: 0
+      setByCallerKey: StrengthFromEquip
+      attributeName: {fileID: 0}
+      attributeCoefficient: 0
+    IsAggregated: 1
+  - attributeName: {fileID: 11400000, guid: b677ba8a37d47f24ba3a307a0337c5b7, type: 2}
+    modifierOperator: 0
+    magnitude:
+      type: 1
+      constantValue: 0
+      setByCallerKey: MaxHealthFromEquip
+      attributeName: {fileID: 0}
+      attributeCoefficient: 0
+    IsAggregated: 1
+  - attributeName: {fileID: 11400000, guid: 730bca274f693284fac1d62b4812d7db, type: 2}
+    modifierOperator: 0
+    magnitude:
+      type: 1
+      constantValue: 0
+      setByCallerKey: SpeedFromEquip
+      attributeName: {fileID: 0}
+      attributeCoefficient: 0
+    IsAggregated: 1
+  calculations: []
+  grantedTags: []
+  effectTags: []

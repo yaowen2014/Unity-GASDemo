@@ -1,0 +1,8 @@
+{
+	"name": "Tests.EditMode",
+	"testAssemblies": true,
+	"includePlatforms": [ "Editor" ],
+	"references": [
+		"GAS"
+	]
+}

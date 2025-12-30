@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2da726060dc4b9191748e2910f1a070, type: 3}
+  m_Name: GE_CostFrozonShoot
+  m_EditorClassIdentifier: GAS::WYGAS.SO.BasicGameplayEffectDefinition
+  durationType: 0
+  period: 0
+  duration: 0
+  modifiers:
+  - attributeName: {fileID: 11400000, guid: 206f3d4c6797a4045b1547c32db2073e, type: 2}
+    modifierOperator: 0
+    magnitude:
+      type: 0
+      constantValue: -15
+      setByCallerKey: 
+      attributeName: {fileID: 0}
+      attributeCoefficient: 0
+    IsAggregated: 0
+  calculations: []
+  grantedTags: []
+  effectTags: []
